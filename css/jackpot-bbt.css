@@ -1,0 +1,264 @@
+/*this is for the font of this UI*/
+@font-face {
+    font-family: LHF_Convecta_BASE;
+    src: url('../font/LHF Convecta BASE.ttf');
+}
+
+
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+body {
+  min-height: 100%;
+  min-width: 100%;
+}
+.jp-side-coin-left{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	/*background-color: red;*/
+	background-image: url('../image/leftcoin.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	/*opacity: .5;*/
+}
+.jp-side-coin-right{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	/*background-color: red;*/
+	background-image: url('../image/rightcoin.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	/*opacity: .5;*/
+}
+
+.jp-upper-part{
+	position: absolute;
+	width: 100%;
+	height: 30%;
+	top: 0;
+	left: 0;
+	/*background-color: red;*/
+	background-size: 100%;
+	background-repeat: no-repeat;
+	/*opacity: .5;*/
+}
+
+.jp-lower-part{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	bottom: 0;
+	left: 0;
+	/*background-color: red;*/
+	background-size: 100%;
+	background-image: url('../image/cointButtom.png');
+	/*background-image: url('../image/cointButtom.png');*/
+	background-repeat: no-repeat;
+	/*opacity: .5;*/
+}
+
+.jp-bbtech-logo{
+	position: absolute;
+	width: 30%;
+	height: 75%;
+	top: 0%;
+	left: 35%;
+	/*background-color: red;*/
+	background-size: 100%;
+	background-image: url('../image/bbtechLogoMetal.png');
+	background-repeat: no-repeat;
+	/*opacity: .5;*/
+}
+
+.jp-coin-top{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	/*background-color: red;*/
+	background-size: 100%;
+	background-image: url('../image/coinTop.png');
+	background-repeat: no-repeat;
+	opacity: .5;
+}
+
+.jp-giga-frame{
+	position: absolute;
+	width: 52%;
+	height: 46%;
+	top: 22%;
+	left: 24%;
+	/*background-color: red;*/
+	background-size: 100%;
+	background-image: url('../image/gigaFrame.png');
+	background-repeat: no-repeat;
+	/*opacity: .5;*/
+}
+
+.jp-giga-amount{
+	position: absolute;
+	width: 80%;
+	height: 19%;
+	top: 40%;
+	left: 10%;
+	padding-top: 3%;
+	/*background-color: blue;*/
+	background-size: 100%;
+	/*background-image: url('../image/gigaFrame.png');*/
+	background-repeat: no-repeat;
+	/*opacity: .5;*/
+	font-family: LHF_Convecta_BASE;
+	font-size: 3.2vw;
+	text-align: center;
+	text-shadow: 2px 2px #000000;
+	color: red;
+}
+
+.jp-second-price{
+	position: absolute;
+	width: 60%;
+	height: 13%;
+	top: 61.5%;
+	left: 20%;
+	/*background-color: red;*/
+	background-size: 100%;
+	/*background-image: url('../image/gigaFrame.png');*/
+	background-repeat: no-repeat;
+	/*opacity: .5;*/
+	/*padding-right: .5%;*/
+	padding-left: 2%;
+}
+
+.jp-second-price div{
+	position: relative;
+	width: 30%;
+	height: 100%;
+	margin-right: 1%;
+	margin-left: 1%;
+	/*background-color: blue;*/
+	background-size: 100%;
+	/*background-image: url('../image/gigaFrame.png');*/
+	background-repeat: no-repeat;
+	/*opacity: .5;*/
+	float: left;
+}
+
+
+.jp-grand-frame{
+	background-image: url('../image/grandFrame.png');
+}
+
+.jp-mega-frame{
+	background-image: url('../image/megaFrame.png');
+}
+.jp-extra-frame{
+	background-image: url('../image/extraFrame.png');
+}
+
+.jp-grand-frame div, .jp-mega-frame div, .jp-extra-frame div{
+	position: absolute;
+	width: 94%;
+	height: 46%;
+	top: 40.5%;
+	left: 2%;
+	padding-top: 6.5%;
+	/*background-color: red;*/
+	background-size: 100%;
+	/*background-image: url('../image/gigaFrame.png');*/
+	background-repeat: no-repeat;
+	font-family: LHF_Convecta_BASE;
+	font-size: 1.3vw;
+	text-align: center;
+	text-shadow: 2px 2px #000000;
+}
+
+.jp-grand-frame div{	
+	color: #fdbb32;
+}
+.jp-mega-frame div{
+	color: #fd0c88;
+}
+.jp-extra-frame div{
+	color: #10fb95;
+}
+
+.jp-game-thumbnails{
+	position: absolute;
+	width:49%;
+	height: 21%;
+	top: 74%;
+	left: 25%;
+	/*background-color: red;*/
+	background-size: 100%;
+	/*background-image: url('../image/gigaFrame.png');*/
+	background-repeat: no-repeat;
+	/*opacity: .5;*/
+	text-align: center;
+}
+
+.jp-game-thumbnails div{
+	position: absolute;
+	width: 99%;
+	height: 96%;
+	top: 2%;
+	left: .5%;
+	/*background-color: red;*/
+	background-size: 100%;
+	background-repeat: no-repeat;
+	/*opacity: .5;*/
+	padding-left: 1%;
+}
+
+.jp-game-thumbnails div div{
+	position: relative;
+	width: 30%;
+	height: 95%;
+	margin-right: 1%;
+	margin-left: 1%;
+	/*background-color: blue;*/
+	background-size: 100%;
+	/*background-image: url('../image/gigaFrame.png');*/
+	background-repeat: no-repeat;
+	/*opacity: .5;*/
+	float: left;
+}
+
+.jp-mahjong{
+	background-image: url('../image/jpMajhong.png');
+	
+}
+
+.jp-edusushi{
+	background-image: url('../image/jpStarfleet.png')
+}
+
+.jp-starfleet{
+	background-image: url('../image/jpEdosushi.png')
+}
+
+
+.jp-background{
+	position: fixed;
+	width: 100%;
+	/*height: 100%;*/
+	padding-top: 56.25%;
+	top: 0%;
+	left: 0%;
+	/*background-color: red;*/
+	background-size: 100%;
+	background-image: url('../image/jpBackground.jpg');
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	/*color: #ffffff;
+  	font-weight: bold;
+  	font-size: 2.0vw;*/
+}
